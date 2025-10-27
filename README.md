@@ -120,3 +120,17 @@ To run the all-to-all benchmarks on one node:
 ```bash
 NVSHMEM_REMOTE_TRANSPORT=none mpirun -np 4 ./all_to_all/bench_all_to_all
 ```
+
+## Citation
+
+If you use this codebase or otherwise find our work valuable, please cite:
+
+```bibtex
+@misc{pplx-kernels,
+  title={{pplx-kernels}: {Perplexity} {MoE} Kernels},
+  author={Nandor Licker and Kevin Hu and Vladimir Zaytsev and Lequn Chen},
+  year={2025},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/perplexityai/pplx-kernels}},
+}
+```
